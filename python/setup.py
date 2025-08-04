@@ -2,9 +2,9 @@ import glob
 import os
 import sys
 
-#import pybind11
+import pybind11
 
-#from pybind11.setup_helpers import ParallelCompile
+from pybind11.setup_helpers import ParallelCompile
 from setuptools import Extension, find_packages, setup
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
